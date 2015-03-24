@@ -287,8 +287,7 @@ Licensed Under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.
 <wire x1="8.255" y1="-4.445" x2="8.255" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="8.255" y1="-7.62" x2="-8.255" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-8.255" y1="-7.62" x2="-8.255" y2="-4.445" width="0.127" layer="21"/>
-<text x="8.89" y="-6.35" size="1.27" layer="21">1</text>
-<text x="-10.16" y="-6.35" size="1.27" layer="21">8</text>
+<text x="5.715" y="-4.445" size="1.27" layer="21">1</text>
 </package>
 <package name="INEX-PCD8544">
 <wire x1="21.9075" y1="-0.3175" x2="-25.7175" y2="-0.3175" width="0.127" layer="21"/>
@@ -7988,7 +7987,7 @@ Source: AVX .. aphvc.pdf</description>
 <parts>
 <part name="U$5" library="teensy" deviceset="TEENSY" device=""/>
 <part name="U$1" library="synfinatic" deviceset="MPXV5050V" device=""/>
-<part name="U$7" library="synfinatic" deviceset="INEX-PCD8544" device="BPADS" value="INEX-PCD8544BPADS"/>
+<part name="U$7" library="synfinatic" deviceset="INEX-PCD8544" device="TPINS" value="INEX-PCD8544TPINS"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

@@ -5423,7 +5423,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="U$6" library="microbuilder" deviceset="74HC4050D" device="" value="74HC4050D"/>
+<part name="U$6" library="microbuilder" deviceset="74HC4050D" device="" value="HEF4050BT"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$8" library="synfinatic" deviceset="POLOLU-DC-3PIN" device="U1V10F5-5V-DC-UP"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5559,6 +5559,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="101.6" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="20.32" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="U$6" gate="G$1" pin="6A"/>
+<wire x1="101.6" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="25.4" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+<junction x="96.52" y="20.32"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="GND"/>

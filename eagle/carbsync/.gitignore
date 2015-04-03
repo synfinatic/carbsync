@@ -1,3 +1,5 @@
 *.s#*
 *.b#*
 *.job
+*.pro
+eagle.epf

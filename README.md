@@ -19,7 +19,7 @@ CarbSync is both accurate and easy to use.
  * Powered by AA batteries
 
 ### Thanks
-Special thanks to [Makuna](http://www.instructables.com/member/Makuna/) 
+Special thanks to [Michael Miller](http://www.instructables.com/member/Makuna/)
 for his [Arduino Throttle Body Synchronization Sheild](http://www.instructables.com/id/Arduino-Throttle-Body-Syncronization-Shield/?ALLSTEPS)
 idea which gave me the idea for this project.
 
